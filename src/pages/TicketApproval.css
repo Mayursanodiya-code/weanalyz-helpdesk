@@ -1,0 +1,65 @@
+.approval-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .approval-container h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .ticket-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9fafb;
+  }
+  
+  .ticket-card p {
+    margin: 6px 0;
+    color: #222;
+  }
+  
+  .btn-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .approve {
+    background-color: #27c49d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .reject {
+    background-color: #ef4444;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .no-tickets {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  

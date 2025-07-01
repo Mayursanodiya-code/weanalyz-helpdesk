@@ -1,0 +1,43 @@
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #27d3b5;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #f8f8f8;
+  }
+  
