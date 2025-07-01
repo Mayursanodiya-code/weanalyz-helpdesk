@@ -1,26 +1,55 @@
-# WeAnalyz Helpdesk App
+# WeAnalyz Helpdesk App 🚀
 
-A simple React-based Helpdesk UI built for internship assignment.
+A modern Helpdesk Ticketing UI built using **ReactJS**, closely following the provided Figma design.
 
-## Features
+---
 
-- Create ticket (form + local storage)
-- View my tickets
-- Approve tickets
-- Dashboard with stats
-- Clean Figma-based UI
+## 🔗 Live Demo
 
-## Tech Stack
+👉 [View Hosted App on Netlify](https://weanalyz-helpdesk.netlify.app)
 
-- ReactJS
-- CSS (custom)
-- React Router
-- LocalStorage
+---
 
-## Live Demo
+## 📝 Features
 
-[🌐 Live on Netlify](https://your-link.netlify.app)
+- 🎨 Responsive UI that mirrors the Figma mockup  
+- 🆕 Create New Ticket with validation and animated "I'm not a robot" checkbox  
+- 📋 View submitted tickets in **My Tickets**, with **search** and **filter by status**  
+- ✅ **Ticket Approval** page for managing pending tickets (Approve/Reject)  
+- 📊 **Dashboard** showing real-time ticket stats (Total, Open, Closed)  
+- 💾 Uses **LocalStorage** as a mock backend for data persistence  
 
-## Author
+---
 
-👤 Mayur Sanodiya
+## 🛠️ Tech Stack
+
+- **ReactJS** (functional components with hooks)  
+- **React Router** for client-side navigation  
+- **Plain CSS** modules/stylesheets  
+- **react-icons** for consistent iconography  
+- **LocalStorage** to simulate backend  
+- **Netlify** for easy deployment and hosting  
+
+---
+
+## 📁 Project Structure
+weanalyz-helpdesk/
+├── public/
+│ ├── index.html
+│ └── _redirects ← Netlify rewrite for deep-link routing
+├── src/
+│ ├── pages/
+│ │ ├── Dashboard.jsx
+│ │ ├── NewTicket.jsx
+│ │ ├── MyTickets.jsx
+│ │ └── TicketApproval.jsx
+│ ├── components/
+│ │ └── Sidebar.jsx
+│ ├── App.jsx
+│ ├── index.js
+│ └── styles (CSS files)
+├── .gitattributes
+├── .gitignore
+├── package.json
+└── README.md
+
